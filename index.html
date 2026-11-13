@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar</title>
+    <link rel="preconnect" href="https://googleapis.com" />
+    <link rel="preconnect" href="https://gstatic.com" crossorigin />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <body class="bg-purple-200">
+    <!-- เขียน Navbar ตรงนี้ -->
+
+    <nav class="bg-indigo-400 text-white p-4">
+      <div class="flex lg:flex-row flex-col justify-between items-center">
+        <!-- ชื่อเว็บไซต์ -->
+        <h1 class="text-xl font-bold"> ร้านอาหาร </h1>
+
+        <!-- รายการเมนู -->
+        <div class="flex gap-6">
+          <a href="#" class="hover:text-blue-300">หน้าแรก</a>
+          <a href="#" class="hover:text-blue-300">สินค้า</a>
+          <a href="#" class="hover:text-blue-300">เกี่ยวกับเรา</a>
+          <a href="#" class="hover:text-blue-300">ติดต่อเรา</a>
+        </div>
+      </div>
+      
+      <img src="imgers/logo.jpg" alt="โลโก้ร้าน" width="15%">
+        
+    </nav>
+    
+    <h1 class="lg:text-2xl md:text-xl sm:text-lg font-bold text-center mt-8 md:block hidden">
+        รายการสินค้า
+    </h1>
+
+    <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-3">
+
+        
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/Crispy Pork.jpg"
+         alt="ผัดคะน้าหมูกรอบ"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดเมนูผัด / ทอด
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        ผัดคะน้าหมูกรอบ
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        80 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/preserved egg.jpg"
+         alt="ผัดกะเพรา"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดเมนูผัด / ทอด
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        ผัดกะเพรา
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        70 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/Curry powder.jpg"
+         alt="กุ้งผัดผงกะหรี่"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดเมนูผัด / ทอด
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        กุ้งผัดผงกะหรี่
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        100 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/Thai cakes.jpg"
+         alt="ทอดมันกุ้ง"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดเมนูผัด / ทอด
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        ทอดมันกุ้ง
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        90 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/Sea bass.jpg"
+         alt="ปลากะพงทอดน้ำปลา"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดเมนูผัด / ทอด
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        ปลากะพงทอดน้ำปลา
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        140 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+    
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/Larb.jpg"
+         alt="ลาบหมู"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดยำและอาหารอีสานรสแซ่บ
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        ลาบหมู
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        70 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/Pla.jpg"
+         alt="พล่ากุ้ง"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดยำและอาหารอีสานรสแซ่บ
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        พล่ากุ้ง
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        100 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/Pork neck.jpg"
+         alt="คอหมูย่าง"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดยำและอาหารอีสานรสแซ่บ
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        คอหมูย่าง
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        60 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/Salmon.webp"
+         alt="ยำแซลมอน"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดยำและอาหารอีสานรสแซ่บ
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        ยำแซลมอน
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        130 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/sweetcorn.jpg"
+         alt="ตำข้าวโพด"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดยำและอาหารอีสานรสแซ่บ
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        ตำข้าวโพด
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        50 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/Bone broth.jpg"
+         alt="ต้มกระดูกอ่น"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดต้มและแกง
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        ต้มกระดูกอ่น
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        80 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/boiled.jpg"
+         alt="ต้มยำกุ้งน้ำข้น"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดต้มและแกง
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        ต้มยำกุ้งน้ำข้น
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        100 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/Kaeng Som.webp"
+         alt="แกงส้มชะอมกุ้ง"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดต้มและแกง
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        แกงส้มชะอมกุ้ง
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        120 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/soup.jpg"
+         alt="แกงจืด"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดต้มและแกง
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        แกงจืด
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        110 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/fish.webp"
+         alt="ต้มยำปลา"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดต้มและแกง
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        ต้มยำปลา
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        130 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/Milk.jpg"
+         alt="เต้าฮวยนมสด"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดของหวาน
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+       เต้าฮวยนมสด
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        130 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/taro.jpg"
+         alt="ข้าวเหนียวเผือกแปะก๊วย"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดของหวาน
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        ข้าวเหนียวเผือกแปะก๊วย
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        140 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/Bua Loy.png"
+         alt="บัวลอย"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดของหวาน
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        บัวลอย
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        130 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/yoghurt.jpg"
+         alt="สตอเบอร์รี่โยเกิร์ต"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดของหวาน
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        สตอเบอร์รี่โยเกิร์ต
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        80 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+<div class="bg-white rounded-lg shadow-md p-4 m-4">
+
+    <img src="imgers/Lod chong.jpg"
+         alt="ลอดช่อง"
+         class="w-full rounded-md">
+
+    <h2 class="text-xl font-semibold mt-4">
+        หมวดของหวาน
+    </h2>
+
+    <p class="text-gray-600 mt-2 md:block hidden">
+        ลอดช่อง
+    </p>
+
+    <p class="text-blue-600 font-bold mt-3">
+        70 บาท
+    </p>
+
+    <button class="bg-blue-600 text-white px-4 py-2
+                   rounded-md mt-4">
+        ดูรายละเอียด
+    </button>
+
+</div>
+
+
+
+
+    </div>
+</body>
+
+  </body>
+</html>
